@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #E9EEF6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    background-color: #ffffff;
+    height: 608px;
+    flex-direction: column;
+    padding: 90px 60px;
+    border-radius: 32px;
+
+}
+
+h1 {
+    margin-bottom: 64px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 6px 0px 10px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container div {
+    margin: 0px 7px;
+    border-radius: 5px;
+}
+
+div.card-one {
+    background-color: #F8F2FA;
+}
+
+div.card-two {
+    background-color: #FAF2F4;
+}
+
+div.card-three {
+    background-color: #F5F2FA;
+}
+p {
+    max-width: 328px;
+}
+
+img {
+    border: 10px #ffffff solid;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+button {
+    border: 0px;
+    margin: 35px 0 50px 0;
+    padding: 12px 20px;
+    background-color: 
+    #0C1727;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DADDE1;
+}
+
+section.section-one {
+    display: flex;
+    background-color: #ffffff;
+    padding: 60px 50px 50px 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+div.info-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.cards-one {
+    display: flex;
+}
+
+div.card-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 135px;
+    padding: 25px 35px 0px 35px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+
+
+}
+
+img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+img.btn-plus {
+    border: 5px solid  ;
+    background-color: #000000;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 6px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 33px;
+}
+
+span {
+    border: 1px solid #000000;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+h2.card-one {
+    margin: 15px 0 22px 0;
+}
+
+a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+section.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    border-radius: 15px;
+    max-height: 653px;
+
+}
+
+.card-two {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+h2.card-two {
+    margin: 0px 0px 5px 0px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.resize {
+    margin-bottom: 5px;
+}
+
+.space {
+    margin-right: 20px;
+}
+
+.space-two {
+    margin-left: 141px;
+    width: 34px;
+    height: 34px;
+}
+
+button {
+    margin-top: 9px;
+    border: 0px;
+    padding: 18px 30px;
+    border-radius: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 50%;
+}
+
+.footer {
+    padding: 25px;
+}
